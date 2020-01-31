@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Verstka</string>
+    <string name="reddit_icon">reddit_icon</string>
+    <string name="r_drawing">r/Drawing</string>
+    <string name="so_i_bought_my_12_year_old_daughter_an_art_set_and_this_is_what_she_srew_thought_i_d_share">So i
+        bought my 12 year old daughter an art set and this is what she srew. Thought I\'d share.
+    </string>
+    <string name="r_animalsbeigderps">r/AnimalsBeigDerps</string>
+    <string name="jokonda">jokonda</string>
+    <string name="comment_icon">comment_icon</string>
+    <string name="share_icon">share_icon</string>
+    <string name="upvote_icon">upvote_icon</string>
+    <string name="saturn_icon_2">saturn_icon_2</string>
+    <string name="avatar_icon">avatar_icon</string>
+    <string name="saturn_icon">saturn_icon</string>
+    <string name="downvote_icon">downvote_icon</string>
+    <string name="award_icon">award_icon</string>
+    <string name="upvote_icon_2">upvote_icon_2</string>
+    <string name="message_icon">message_icon</string>
+    <string name="chats_icon">chats_icon</string>
+    <string name="pencil_icon">pencil_icon</string>
+    <string name="subscriptions_icon">subscriptions_icon</string>
+    <string name="award_icon_2">award_icon_2</string>
+    <string name="share_icon_2">share_icon_2</string>
+    <string name="comment_icon_2">comment_icon_2</string>
+    <string name="downvote_icon_2">downvote_icon_2</string>
+    <string name="doggo">doggo</string>
+    <string name="i_just_adopted_this_old_man_hershey_he_has_a_weird_looking_face">I just adopted this old man
+        Hershey... He has a weird looking face
+    </string>
+</resources>

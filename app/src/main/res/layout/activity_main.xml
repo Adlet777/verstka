@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".MainActivity">
+    <ScrollView android:layout_width="0dp" android:layout_height="0dp"
+                android:id="@+id/scrollView3"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1314dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp" tools:layout_editor_absoluteY="-154dp"
+                app:layout_constraintHorizontal_bias="1.0">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp">
+                <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/saturn_icon"
+                        android:id="@+id/imageView4" android:layout_weight="1"
+                        android:contentDescription="@string/saturn_icon"/>
+                <TextView
+                        android:text="@string/r_drawing"
+                        android:layout_width="251dp"
+                        android:layout_height="match_parent" android:id="@+id/textView5" android:layout_weight="1"
+                        android:textSize="18sp"/>
+            </LinearLayout>
+            <TextView
+                    android:text="@string/so_i_bought_my_12_year_old_daughter_an_art_set_and_this_is_what_she_srew_thought_i_d_share"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView7" android:textSize="24sp"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="395dp" app:srcCompat="@drawable/user_icon"
+                    android:id="@+id/imageView5"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="74dp">
+                <ImageButton
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent" app:srcCompat="@drawable/upvote_icon"
+                        android:id="@+id/imageButton9" android:layout_weight="1" android:scaleType="fitCenter"
+                        android:contentDescription="@string/upvote_icon"/>
+                <ImageButton
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent" app:srcCompat="@drawable/downvote_icon"
+                        android:id="@+id/imageButton10" android:layout_weight="1" android:scaleType="fitCenter"
+                        android:contentDescription="@string/downvote_icon"/>
+                <ImageButton
+                        android:layout_width="56dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/comment_icon"
+                        android:id="@+id/imageButton11" android:layout_weight="1" android:scaleType="centerCrop"
+                        android:contentDescription="@string/comment_icon"/>
+                <ImageButton
+                        android:layout_width="44dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/share_icon"
+                        android:id="@+id/imageButton12" android:layout_weight="1" android:scaleType="centerCrop"
+                        android:contentDescription="@string/share_icon"/>
+                <ImageButton
+                        android:layout_width="73dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/award_icon"
+                        android:id="@+id/imageButton13" android:layout_weight="1" android:scaleType="centerCrop"
+                        android:contentDescription="@string/award_icon"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp">
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp">
+                <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/saturn_icon"
+                        android:id="@+id/imageView10" android:layout_weight="1"
+                        android:src="@drawable/saturn_icon" android:contentDescription="@string/saturn_icon_2"/>
+                <TextView
+                        android:text="@string/r_animalsbeigderps"
+                        android:layout_width="223dp"
+                        android:layout_height="match_parent" android:id="@+id/textView3" android:layout_weight="1"
+                        android:textSize="18sp"/>
+            </LinearLayout>
+            <TextView
+                    android:text="@string/i_just_adopted_this_old_man_hershey_he_has_a_weird_looking_face"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView4" android:textSize="24sp"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="395dp" app:srcCompat="@drawable/user_icon"
+                    android:id="@+id/imageView12"
+                     android:contentDescription="@string/downvote_icon_2"
+                    android:scrollbarTrackVertical="@drawable/user_icon"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="74dp">
+                <ImageButton
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent" app:srcCompat="@drawable/upvote_icon"
+                        android:id="@+id/imageButton4" android:layout_weight="1"
+
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/upvote_icon_2"/>
+                <ImageButton
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent" app:srcCompat="@drawable/downvote_icon"
+                        android:id="@+id/imageButton5" android:layout_weight="1" android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/downvote_icon_2"/>
+                <ImageButton
+                        android:layout_width="56dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/comment_icon"
+                        android:id="@+id/imageButton6" android:layout_weight="1" android:scaleType="centerCrop"
+                        android:contentDescription="@string/comment_icon_2"/>
+                <ImageButton
+                        android:layout_width="44dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/share_icon"
+                        android:id="@+id/imageButton7" android:layout_weight="1" android:scaleType="centerCrop"
+                        android:contentDescription="@string/share_icon_2"/>
+                <ImageButton
+                        android:layout_width="73dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/award_icon"
+                        android:id="@+id/imageButton8" android:layout_weight="1" android:scaleType="centerCrop"
+                        android:contentDescription="@string/award_icon_2"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="11dp">
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:id="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+        <ImageButton
+                android:layout_width="39dp"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/reddit_icon"
+                android:id="@+id/imageButton14" android:layout_weight="1" android:scaleType="centerCrop"
+                android:contentDescription="@string/reddit_icon"/>
+        <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/subscriptions_icon"
+                android:id="@+id/imageButton15" android:layout_weight="1" android:scaleType="centerCrop"
+                android:contentDescription="@string/subscriptions_icon"/>
+        <ImageButton
+                android:layout_width="53dp"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/pensil_icon"
+                android:id="@+id/imageButton16" android:layout_weight="1" android:scaleType="centerCrop"
+                android:contentDescription="@string/pencil_icon"/>
+        <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/chats_icon"
+                android:id="@+id/imageButton17" android:layout_weight="1" android:scaleType="centerCrop"
+                android:contentDescription="@string/chats_icon"/>
+        <ImageButton
+                android:layout_width="44dp"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/message_icon"
+                android:id="@+id/imageButton18" android:layout_weight="1" android:scaleType="centerCrop"
+                android:contentDescription="@string/message_icon"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="399dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp">
+        <ImageView
+                android:layout_width="52dp"
+                android:layout_height="match_parent" app:srcCompat="@mipmap/ic_launcher_round"
+                android:id="@+id/imageView13" android:layout_weight="1"
+                android:contentDescription="@string/avatar_icon"/>
+        <SearchView
+                android:layout_width="314dp"
+                android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
